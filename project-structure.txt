@@ -1,0 +1,24 @@
+zvoworld.io/
+│
+├── public/                # Static assets (images, sounds, etc.)
+│   ├── index.html         # Entry point for the browser
+│   └── assets/            # Game sprites, tilesets, audio, etc.
+│
+├── src/                   # Main source code
+│   ├── main.ts            # Game entry file (TypeScript)
+│   ├── game/              # Core game logic
+│   │   ├── world/         # Map, biomes, tiles, structures
+│   │   ├── entities/      # Players, mobs, NPCs, pets
+│   │   ├── items/         # Food, bonus items, consumables
+│   │   ├── mechanics/     # Evolution system, skills, effects
+│   │   ├── ui/            # Game UI, HUD, chat, menus
+│   │   └── net/           # Multiplayer/networking logic
+│   └── config/            # Game configuration (levels, mobs)
+│
+├── tests/                 # Unit and integration tests
+│
+├── scripts/               # Dev scripts, build tools
+│
+├── package.json           # npm project config
+├── tsconfig.json          # TypeScript config
+└── README.md              # Project documentation
