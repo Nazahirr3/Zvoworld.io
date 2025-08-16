@@ -1,0 +1,95 @@
+zvoworld.io/
+│
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── assets/
+│       ├── sprites/
+│       ├── tilesets/
+│       ├── audio/
+│       ├── fonts/
+│       └── particles/
+│
+├── src/
+│   ├── main.ts
+│   ├── game/
+│   │   ├── world/
+│   │   │   ├── MapLoader.ts
+│   │   │   ├── BiomeManager.ts
+│   │   │   ├── Tiles.ts
+│   │   │   ├── Structures.ts
+│   │   │   └── Weather.ts
+│   │   ├── entities/
+│   │   │   ├── Evo.ts
+│   │   │   ├── Mob.ts
+│   │   │   ├── Pet.ts
+│   │   │   ├── Boss.ts
+│   │   │   ├── NPC.ts
+│   │   │   └── EntityFactory.ts
+│   │   ├── items/
+│   │   │   ├── Food.ts
+│   │   │   ├── BonusItem.ts
+│   │   │   ├── Consumable.ts
+│   │   │   └── ItemFactory.ts
+│   │   ├── mechanics/
+│   │   │   ├── EvolutionSystem.ts
+│   │   │   ├── Skills.ts
+│   │   │   ├── StatusEffects.ts
+│   │   │   ├── XPSystem.ts
+│   │   │   └── Revival.ts
+│   │   ├── ui/
+│   │   │   ├── HUD.tsx
+│   │   │   ├── Chat.tsx
+│   │   │   ├── Leaderboard.tsx
+│   │   │   ├── Menus.tsx
+│   │   │   └── EvolutionTree.tsx
+│   │   ├── net/
+│   │   │   ├── NetworkManager.ts
+│   │   │   ├── WebSocketClient.ts
+│   │   │   ├── ServerAPI.ts
+│   │   │   └── Sync.ts
+│   │   └── utils/
+│   │       ├── MathUtils.ts
+│   │       ├── Timer.ts
+│   │       ├── Random.ts
+│   │       └── Logger.ts
+│   ├── config/
+│   │   ├── gameConfig.ts
+│   │   ├── levels.ts
+│   │   ├── mobs.ts
+│   │   ├── biomes.ts
+│   │   ├── items.ts
+│   │   ├── skills.ts
+│   │   └── statusEffects.ts
+│   └── types/
+│       ├── EntityTypes.ts
+│       ├── ItemTypes.ts
+│       ├── BiomeTypes.ts
+│       ├── NetworkTypes.ts
+│       └── UI.ts
+│
+├── tests/
+│   ├── game/
+│   ├── entities/
+│   ├── items/
+│   ├── mechanics/
+│   └── ui/
+│
+├── scripts/
+│   ├── build.ts
+│   ├── deploy.ts
+│   └── asset-import.ts
+│
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   └── workflows/
+│       └── ci.yml
+│
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── FEATURES.md
+└── LINKS.md
